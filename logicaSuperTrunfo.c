@@ -4,35 +4,9 @@
 
 int main() {
 
-    int escolhaJogador, escolhaComputador;
-    srand(time(0));
-
-    printf("======== Jogo de Jokenpô ======== \n");
-    printf("Faça sua escolha: \n");
-    printf("1. Pedra \n");
-    printf("2. Papel \n");
-    printf("3. Tesoura \n");
-    printf("Escolha: ");
-    scanf("%d", &escolhaJogador);
-
-    escolhaComputador = rand() % 3 + 1;
-
-    switch (escolhaJogador){
-    case 1:
-        printf("Jogador: Pedra");
-        break;
-    case 2:
-        printf("Jogador: ");
-        break;
-    case 3:
-        printf("Jogador: ");
-    default:
-        prin
-        break;
-    }
-
 return 0;
 }
+
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
