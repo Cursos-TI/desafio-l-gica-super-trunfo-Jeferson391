@@ -660,6 +660,7 @@ if (ResultadoFinal > 3){
     printf("Carta 2 venceu");
     printf("\n");
 }
+ 
 
 return 0;
 }
